@@ -1,0 +1,1 @@
+export const WOULD_YOU_RATHER_TEXT = 'Would you rather'

@@ -2,7 +2,7 @@ let users = {
   sarahedo: {
     id: 'sarahedo',
     name: 'Sarah Edo',
-    avatarURL: ,
+    avatarURL: require('../images/girl.jpg'), // It's a dirty hack, but don't have an online image I can reference to
     answers: {
       "8xf0y6ziyjabvozdd253nd": 'optionOne',
       "6ni6ok3ym7mf1p33lnez": 'optionTwo',
@@ -14,7 +14,7 @@ let users = {
   tylermcginnis: {
     id: 'tylermcginnis',
     name: 'Tyler McGinnis',
-    avatarURL: ,
+    avatarURL: require('../images/boy.jpg'),
     answers: {
       "vthrdm985a262al8qx3do": 'optionOne',
       "xj352vofupe1dqz9emx13r": 'optionTwo',
@@ -24,7 +24,7 @@ let users = {
   johndoe: {
     id: 'johndoe',
     name: 'John Doe',
-    avatarURL: ,
+    avatarURL: require('../images/man.jpg'),
     answers: {
       "xj352vofupe1dqz9emx13r": 'optionOne',
       "vthrdm985a262al8qx3do": 'optionTwo',
@@ -96,7 +96,7 @@ let questions = {
       text: 'find $50 yourself',
     },
     optionTwo: {
-      votes: ['johndoe'],
+      votes: ['johndoe', 'sarahedo'],
       text: 'have your best friend find $500'
     }
   },
@@ -151,13 +151,13 @@ export function _saveQuestion (question) {
   return new Promise((res, rej) => {
     const authedUser = question.author;
     const formattedQuestion = formatQuestion(question);
-
+    console.log(question)
     setTimeout(() => {
       questions = {
         ...questions,
         [formattedQuestion.id]: formattedQuestion
       }
-      
+
       users = {
         ...users,
         [authedUser]: {
@@ -172,6 +172,7 @@ export function _saveQuestion (question) {
 }
 
 export function _saveQuestionAnswer ({ authedUser, qid, answer }) {
+  console.log('aaa', authedUser, qid, answer)
   return new Promise((res, rej) => {
     setTimeout(() => {
       users = {
