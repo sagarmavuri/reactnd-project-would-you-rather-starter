@@ -1,68 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Would you rather ...? 
 
-## Available Scripts
+An app where users are asked a question in the form: “Would you rather **[option A]** or **[option B]** ?”. Answering "neither" or "both" is against the rules. Here are the specifics.
 
-In the project directory, you can run:
+## What it does!
 
-### `npm start`
+Once the user logs in, the user can toggle between his/her answered and unanswered polls on the home page, which is located at the root. The polls in both categories are arranged from the most recently created (top) to the least recently created (bottom). The unanswered questions are shown by default.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Dashboard 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Once the user logs in, the user can toggle between his/her answered and unanswered polls on the home page, which is located at the root. The polls in both categories are arranged from the most recently created (top) to the least recently created (bottom). The unanswered questions are shown by default.
 
-### `npm test`
+### Add new Poll
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User can add a new poll to the exisitng lot, the same will be available in the dashboard.
 
-### `npm run build`
+### Leaderboard
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+User can also view who has answered/asked the most questions.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Poll/Questions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+User can view all his/her answered questions and see the stats _like_ total number of votes, percentage of votes both the options have got.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Install all project dependencies with `npm install`
+* Start the development server with `npm start`
+    * The app. will be rendered at `http://localhost:3000`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Sneak peek
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Welcome page
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Welcome page](https://github.com/sagarmavuri/myreads-udacity/blob/master/images/Bookshelf.gif)
 
-## Learn More
+### Categorize books
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Categorize books](https://github.com/sagarmavuri/myreads-udacity/blob/master/images/Categorize.gif)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Search
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![Search](https://github.com/sagarmavuri/myreads-udacity/blob/master/images/Search.gif)
