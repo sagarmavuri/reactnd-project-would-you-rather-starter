@@ -30,14 +30,22 @@ User can view all his/her answered questions and see the stats _like_ total numb
 
 ## Sneak peek
 
-### Welcome page
+### Login Page
 
-![Welcome page](https://github.com/sagarmavuri/myreads-udacity/blob/master/images/Bookshelf.gif)
+![Login](https://github.com/sagarmavuri/reactnd-project-would-you-rather-starter/blob/master/sneak_peak_images/LoginPage.png)
 
-### Categorize books
+### Dashboard
 
-![Categorize books](https://github.com/sagarmavuri/myreads-udacity/blob/master/images/Categorize.gif)
+![Dashboard](https://github.com/sagarmavuri/reactnd-project-would-you-rather-starter/blob/master/sneak_peak_images/DashboardPage.png)
 
-### Search
+### Add a new Poll
 
-![Search](https://github.com/sagarmavuri/myreads-udacity/blob/master/images/Search.gif)
+![Add New Poll](https://github.com/sagarmavuri/reactnd-project-would-you-rather-starter/blob/master/sneak_peak_images/AddPage.png)
+
+### Poll
+
+![Poll](https://github.com/sagarmavuri/reactnd-project-would-you-rather-starter/blob/master/sneak_peak_images/PollPage.png)
+
+### Leaderboard
+
+![LeaderBoard](https://github.com/sagarmavuri/reactnd-project-would-you-rather-starter/blob/master/sneak_peak_images/LeaderboardPage.png)
